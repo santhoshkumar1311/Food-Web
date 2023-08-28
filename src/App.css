@@ -1,0 +1,45 @@
+.App {
+  display: flex;
+  color: rgb(15, 1, 1);
+  background-color: #f0f0f4;
+  align-items: center;
+  justify-content: center;
+  text-align: center; 
+}
+.login{
+  padding: 5rem;
+  border: 5px solid rgb(225, 12, 12);
+  border-radius: 10px;
+  margin: 0.5rem;
+  text-align: center;
+}
+@media screen and (min-width: 600px) {
+}
+input {
+  width: 60%;
+  margin: 0.9rem 0;
+  padding: 1rem;
+  border: black;
+  border-radius: 10px;
+}
+button {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #7439db;
+}
+.link-btn {
+  background: none;
+  text-decoration: underline;
+}
+.Reg{
+  width: 70%;
+  border: none;
+  background-color: rgb(250, 244, 247);
+  border: 5px solid rgb(1, 0, 0);
+  border-radius: 15px;
+  cursor: pointer;
+  color: #06010f;
+}
